@@ -1,0 +1,17 @@
+{
+  "exitCode": 1,
+  "gasLimit": "1000000000",
+  "testResult": {
+    "status": "FAILED",
+    "total": 32,
+    "passed": 29,
+    "failed": 3
+  },
+  "failedTests": [
+    "turbos_farming::pool_math_tests::test_add_liquidity_min_amount_rejects_desired_below_minimum",
+    "turbos_farming::pool_math_tests::test_effective_range_migration_lock_blocks_user_actions",
+    "turbos_farming::pool_math_tests::test_fix_coin_add_liquidity_rejects_zero_amounts"
+  ],
+  "missingDependency": false,
+  "scope": "Before the explicit test overlay"
+}

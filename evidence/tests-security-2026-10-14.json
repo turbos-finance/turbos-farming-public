@@ -1,0 +1,23 @@
+{
+  "exitCode": 0,
+  "gasLimit": "1000000000",
+  "testResult": {
+    "status": "OK",
+    "total": 32,
+    "passed": 32,
+    "failed": 0
+  },
+  "failedTests": [],
+  "missingDependency": false,
+  "date": "2026-10-14",
+  "sourceCommit": "79aefd1ff4363ba37a6809892e170a0c2e47ce09",
+  "packageId": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15",
+  "toolchain": "sui 1.66.2-a9a6825eaf62 (Darwin arm64)",
+  "testFrameworkCommit": "a9a6825eaf6273cc819ee3bcf65fd4909f7624a9",
+  "testOverlayApplied": true,
+  "modifications": "Three expected_failure annotations corrected to deployed pool abort codes 1, 13 and 16 (previously 12, 18 and 21). Exact abort location is still required. All 32 tests pass; no production source changes.",
+  "productionLogicChanged": false,
+  "coverageGenerated": false,
+  "coverageLimitation": "Installed CLI lacks tracing support; no line or branch coverage measured.",
+  "exhaustiveAuthorizationCoverage": false
+}
