@@ -1,0 +1,723 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on MoveStdlib and Sui. Consider removing these dependencies from `Move.toml`.
++-------------------------+
+| Move Coverage Summary   |
++-------------------------+
+Module 5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15::acl
+	fun add_role
+		total: 38
+		covered: 34
+		% coverage: 89.47
+	fun get_member_address
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun get_members
+		total: 39
+		covered: 39
+		% coverage: 100.00
+	fun get_permission
+		total: 19
+		covered: 0
+		% coverage: 0.00
+	fun has_role
+		total: 33
+		covered: 29
+		% coverage: 87.88
+	fun new
+		total: 6
+		covered: 6
+		% coverage: 100.00
+	fun remove_member
+		total: 24
+		covered: 0
+		% coverage: 0.00
+	fun remove_role
+		total: 35
+		covered: 29
+		% coverage: 82.86
+	fun set_roles
+		total: 18
+		covered: 11
+		% coverage: 61.11
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 67.89
+Module 5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15::config
+	fun add_role
+		total: 13
+		covered: 13
+		% coverage: 100.00
+	fun check_emergency_pause_role
+		total: 10
+		covered: 8
+		% coverage: 80.00
+	fun check_emergency_restore_version
+		total: 10
+		covered: 0
+		% coverage: 0.00
+	fun check_pool_manager_role
+		total: 10
+		covered: 10
+		% coverage: 100.00
+	fun check_rewarder_manager_role
+		total: 10
+		covered: 10
+		% coverage: 100.00
+	fun checked_package_version
+		total: 10
+		covered: 10
+		% coverage: 100.00
+	fun emergency_pause
+		total: 10
+		covered: 10
+		% coverage: 100.00
+	fun emergency_unpause
+		total: 16
+		covered: 12
+		% coverage: 75.00
+	fun get_members
+		total: 4
+		covered: 4
+		% coverage: 100.00
+	fun init
+		total: 36
+		covered: 0
+		% coverage: 0.00
+	fun new_config
+		total: 14
+		covered: 14
+		% coverage: 100.00
+	fun package_version
+		total: 2
+		covered: 2
+		% coverage: 100.00
+	fun remove_member
+		total: 11
+		covered: 0
+		% coverage: 0.00
+	fun remove_role
+		total: 13
+		covered: 13
+		% coverage: 100.00
+	fun set_package_version
+		total: 33
+		covered: 0
+		% coverage: 0.00
+	fun set_roles
+		total: 13
+		covered: 13
+		% coverage: 100.00
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 54.84
+Module 5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15::config_tests
+	fun test_checked_package_version_rejects_emergency_pause_state
+		total: 26
+		covered: 19
+		% coverage: 73.08
+	fun test_emergency_pause_and_unpause_round_trip
+		total: 29
+		covered: 29
+		% coverage: 100.00
+	fun test_pool_manager_check_rejects_member_without_role
+		total: 16
+		covered: 9
+		% coverage: 56.25
+	fun test_rewarder_manager_check_rejects_member_without_role
+		total: 16
+		covered: 9
+		% coverage: 56.25
+	fun test_roles_can_be_added_checked_and_removed
+		total: 50
+		covered: 48
+		% coverage: 96.00
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 82.01
+Module 5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15::rewarder
+	fun accumulate_pool_reward
+		total: 99
+		covered: 96
+		% coverage: 96.97
+	fun accumulate_pools_reward
+		total: 40
+		covered: 40
+		% coverage: 100.00
+	fun accumulate_rewarder_released
+		total: 52
+		covered: 46
+		% coverage: 88.46
+	fun add_pool
+		total: 61
+		covered: 49
+		% coverage: 80.33
+	fun borrow_pool_allocate_point
+		total: 30
+		covered: 0
+		% coverage: 0.00
+	fun borrow_pool_rewarder_info
+		total: 5
+		covered: 5
+		% coverage: 100.00
+	fun borrow_pool_share
+		total: 6
+		covered: 0
+		% coverage: 0.00
+	fun borrow_rewarder
+		total: 5
+		covered: 5
+		% coverage: 100.00
+	fun create_rewarder
+		total: 41
+		covered: 37
+		% coverage: 90.24
+	fun deposit_rewarder
+		total: 39
+		covered: 35
+		% coverage: 89.74
+	fun emergent_withdraw
+		total: 43
+		covered: 35
+		% coverage: 81.40
+	fun emission_per_second
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun init
+		total: 19
+		covered: 0
+		% coverage: 0.00
+	fun is_pool_in_rewarder
+		total: 8
+		covered: 8
+		% coverage: 100.00
+	fun is_pool_registered
+		total: 5
+		covered: 5
+		% coverage: 100.00
+	fun last_reward_time
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun new_manager_for_testing
+		total: 10
+		covered: 10
+		% coverage: 100.00
+	fun now_seconds
+		total: 5
+		covered: 5
+		% coverage: 100.00
+	fun pool_acc_per_share
+		total: 4
+		covered: 4
+		% coverage: 100.00
+	fun pool_allocate_point
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun pool_last_reward_time
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun pool_reward_harvested
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun pool_reward_released
+		total: 4
+		covered: 4
+		% coverage: 100.00
+	fun pool_rewards_settle
+		total: 62
+		covered: 56
+		% coverage: 90.32
+	fun pool_share
+		total: 6
+		covered: 6
+		% coverage: 100.00
+	fun register_pool
+		total: 17
+		covered: 13
+		% coverage: 76.47
+	fun set_pool
+		total: 64
+		covered: 0
+		% coverage: 0.00
+	fun set_pool_share
+		total: 7
+		covered: 7
+		% coverage: 100.00
+	fun total_allocate_point
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun total_reward_harvested
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun total_reward_released
+		total: 4
+		covered: 4
+		% coverage: 100.00
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+	fun update_rewarder
+		total: 43
+		covered: 0
+		% coverage: 0.00
+	fun vault_balance
+		total: 6
+		covered: 6
+		% coverage: 100.00
+	fun withdraw_reward
+		total: 111
+		covered: 38
+		% coverage: 34.23
+>>> % Module coverage: 62.23
+Module 5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15::pool
+	fun accumulated_position_rewards
+		total: 86
+		covered: 0
+		% coverage: 0.00
+	fun add_liquidity
+		total: 243
+		covered: 0
+		% coverage: 0.00
+	fun add_liquidity_amounts_for_test
+		total: 28
+		covered: 28
+		% coverage: 100.00
+	fun add_liquidity_fix_coin
+		total: 232
+		covered: 0
+		% coverage: 0.00
+	fun add_rewarder
+		total: 45
+		covered: 0
+		% coverage: 0.00
+	fun amount_desired_for_requested_liquidity
+		total: 12
+		covered: 12
+		% coverage: 100.00
+	fun assert_fix_coin_amount_non_zero_for_testing
+		total: 17
+		covered: 17
+		% coverage: 100.00
+	fun assert_not_effective_range_migrating
+		total: 9
+		covered: 9
+		% coverage: 100.00
+	fun assert_not_effective_range_migrating_for_testing
+		total: 3
+		covered: 3
+		% coverage: 100.00
+	fun assert_position_liquidity_valid
+		total: 28
+		covered: 0
+		% coverage: 0.00
+	fun borrow_pool_rewarders
+		total: 3
+		covered: 0
+		% coverage: 0.00
+	fun borrow_position_nft
+		total: 3
+		covered: 0
+		% coverage: 0.00
+	fun borrow_position_rewarder_info
+		total: 5
+		covered: 0
+		% coverage: 0.00
+	fun borrow_rewarders
+		total: 3
+		covered: 0
+		% coverage: 0.00
+	fun borrow_wrapped_position_info
+		total: 5
+		covered: 0
+		% coverage: 0.00
+	fun calculate_position_share
+		total: 75
+		covered: 70
+		% coverage: 93.33
+	fun check_add_liquidity_amount_limits_for_test
+		total: 19
+		covered: 17
+		% coverage: 89.47
+	fun check_effective_range
+		total: 45
+		covered: 39
+		% coverage: 86.67
+	fun clmm_pool_id
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun close_position
+		total: 139
+		covered: 0
+		% coverage: 0.00
+	fun collect_clmm_reward
+		total: 54
+		covered: 0
+		% coverage: 0.00
+	fun collect_fee
+		total: 68
+		covered: 0
+		% coverage: 0.00
+	fun create_pool
+		total: 48
+		covered: 0
+		% coverage: 0.00
+	fun deposit
+		total: 166
+		covered: 0
+		% coverage: 0.00
+	fun destroy_wrapping_position_info
+		total: 30
+		covered: 0
+		% coverage: 0.00
+	fun effective_tick_lower
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun effective_tick_upper
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun harvest
+		total: 188
+		covered: 0
+		% coverage: 0.00
+	fun init
+		total: 1
+		covered: 0
+		% coverage: 0.00
+	fun init_invalid_pool_positions
+		total: 32
+		covered: 0
+		% coverage: 0.00
+	fun is_effective_range_migrating
+		total: 4
+		covered: 4
+		% coverage: 100.00
+	fun migrate_invalid_pool_positions
+		total: 218
+		covered: 0
+		% coverage: 0.00
+	fun new_pool_for_testing
+		total: 13
+		covered: 13
+		% coverage: 100.00
+	fun position_reward_amount
+		total: 8
+		covered: 8
+		% coverage: 100.00
+	fun position_reward_amount_for_testing
+		total: 4
+		covered: 4
+		% coverage: 100.00
+	fun position_rewarder_info
+		total: 24
+		covered: 0
+		% coverage: 0.00
+	fun remove_liquidity
+		total: 183
+		covered: 0
+		% coverage: 0.00
+	fun reward
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun reward_debt
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun reward_harvested
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun set_effective_range_migrating_for_testing
+		total: 5
+		covered: 5
+		% coverage: 100.00
+	fun share
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun sqrt_price
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun total_share
+		total: 4
+		covered: 0
+		% coverage: 0.00
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+	fun update_effective_tick_range
+		total: 16
+		covered: 0
+		% coverage: 0.00
+	fun update_effective_tick_range_internal
+		total: 264
+		covered: 0
+		% coverage: 0.00
+	fun update_pool_allocate_point
+		total: 34
+		covered: 0
+		% coverage: 0.00
+	fun update_position_liquidity
+		total: 83
+		covered: 0
+		% coverage: 0.00
+	fun update_position_share
+		total: 72
+		covered: 0
+		% coverage: 0.00
+	fun withdraw
+		total: 131
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 8.53
+Module 5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15::pool_math_tests
+	fun new_id
+		total: 10
+		covered: 10
+		% coverage: 100.00
+	fun test_add_liquidity_amounts_do_not_round_zero_side
+		total: 42
+		covered: 34
+		% coverage: 80.95
+	fun test_add_liquidity_amounts_keep_distinct_desired_and_min_values
+		total: 44
+		covered: 36
+		% coverage: 81.82
+	fun test_add_liquidity_min_amount_accepts_equal_desired_amount
+		total: 6
+		covered: 6
+		% coverage: 100.00
+	fun test_add_liquidity_min_amount_rejects_desired_below_minimum
+		total: 6
+		covered: 5
+		% coverage: 83.33
+	fun test_effective_range_accepts_tick_inside_bounds
+		total: 8
+		covered: 8
+		% coverage: 100.00
+	fun test_effective_range_migration_lock_blocks_user_actions
+		total: 23
+		covered: 19
+		% coverage: 82.61
+	fun test_effective_range_migration_lock_can_be_cleared
+		total: 32
+		covered: 30
+		% coverage: 93.75
+	fun test_effective_range_migration_lock_defaults_to_clear
+		total: 27
+		covered: 25
+		% coverage: 92.59
+	fun test_effective_range_rejects_tick_outside_bounds
+		total: 8
+		covered: 7
+		% coverage: 87.50
+	fun test_fix_coin_add_liquidity_accepts_one_sided_amount
+		total: 7
+		covered: 7
+		% coverage: 100.00
+	fun test_fix_coin_add_liquidity_rejects_zero_amounts
+		total: 4
+		covered: 3
+		% coverage: 75.00
+	fun test_position_reward_amount_preserves_high_precision_accumulator
+		total: 10
+		covered: 8
+		% coverage: 80.00
+	fun test_share_is_zero_when_position_does_not_overlap_effective_range
+		total: 18
+		covered: 16
+		% coverage: 88.89
+	fun test_share_matches_exact_value_for_centered_overlap
+		total: 18
+		covered: 16
+		% coverage: 88.89
+	fun test_share_matches_exact_value_for_full_position_overlap
+		total: 18
+		covered: 16
+		% coverage: 88.89
+	fun test_share_matches_exact_value_for_single_sided_overlap
+		total: 18
+		covered: 16
+		% coverage: 88.89
+	fun test_share_matches_exact_value_for_upper_half_overlap
+		total: 17
+		covered: 15
+		% coverage: 88.24
+	fun test_share_rejects_invalid_position_tick_range
+		total: 13
+		covered: 11
+		% coverage: 84.62
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 87.01
+Module 5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15::rewarder_tests
+	fun new_pool_id
+		total: 10
+		covered: 10
+		% coverage: 100.00
+	fun setup_rewarder
+		total: 38
+		covered: 38
+		% coverage: 100.00
+	fun test_create_rewarder_rejects_emergency_paused_config
+		total: 46
+		covered: 34
+		% coverage: 73.91
+	fun test_create_rewarder_rejects_sender_without_role
+		total: 32
+		covered: 20
+		% coverage: 62.50
+	fun test_deposit_and_withdraw_reward_vault_balance
+		total: 63
+		covered: 57
+		% coverage: 90.48
+	fun test_emergent_withdraw_allows_emergency_paused_config
+		total: 64
+		covered: 60
+		% coverage: 93.75
+	fun test_high_precision_pool_share_preserves_small_reward_accumulator
+		total: 74
+		covered: 66
+		% coverage: 89.19
+	fun test_multiple_pools_split_rewards_by_allocate_point
+		total: 128
+		covered: 112
+		% coverage: 87.50
+	fun test_pool_settlement_updates_release_and_acc_per_share
+		total: 83
+		covered: 73
+		% coverage: 87.95
+	fun test_withdraw_reward_rejects_insolvent_vault
+		total: 36
+		covered: 22
+		% coverage: 61.11
+	fun test_zero_pool_share_settlement_preserves_pool_accumulator
+		total: 70
+		covered: 62
+		% coverage: 88.57
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 85.76
+Module 5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15::router
+	fun accumulated_position_rewards
+		total: 7
+		covered: 0
+		% coverage: 0.00
+	fun add_liquidity
+		total: 31
+		covered: 0
+		% coverage: 0.00
+	fun add_liquidity_fix_coin
+		total: 31
+		covered: 0
+		% coverage: 0.00
+	fun add_rewarder
+		total: 8
+		covered: 0
+		% coverage: 0.00
+	fun add_role
+		total: 6
+		covered: 0
+		% coverage: 0.00
+	fun close_position
+		total: 27
+		covered: 0
+		% coverage: 0.00
+	fun collect_clmm_reward
+		total: 18
+		covered: 0
+		% coverage: 0.00
+	fun collect_fee
+		total: 23
+		covered: 0
+		% coverage: 0.00
+	fun create_pool
+		total: 11
+		covered: 0
+		% coverage: 0.00
+	fun create_rewarder
+		total: 7
+		covered: 0
+		% coverage: 0.00
+	fun deposit
+		total: 10
+		covered: 0
+		% coverage: 0.00
+	fun deposit_rewarder
+		total: 14
+		covered: 0
+		% coverage: 0.00
+	fun emergent_withdraw
+		total: 8
+		covered: 0
+		% coverage: 0.00
+	fun harvest
+		total: 9
+		covered: 0
+		% coverage: 0.00
+	fun merge_coins
+		total: 21
+		covered: 0
+		% coverage: 0.00
+	fun remove_liquidity
+		total: 28
+		covered: 0
+		% coverage: 0.00
+	fun remove_role
+		total: 6
+		covered: 0
+		% coverage: 0.00
+	fun send_coin
+		total: 12
+		covered: 0
+		% coverage: 0.00
+	fun set_roles
+		total: 6
+		covered: 0
+		% coverage: 0.00
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+	fun update_effective_tick_range
+		total: 17
+		covered: 0
+		% coverage: 0.00
+	fun update_pool_allocate_point
+		total: 8
+		covered: 0
+		% coverage: 0.00
+	fun update_rewarder
+		total: 7
+		covered: 0
+		% coverage: 0.00
+	fun withdraw
+		total: 7
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 0.00
++-------------------------+
+| % Move Coverage: 36.51  |
++-------------------------+
