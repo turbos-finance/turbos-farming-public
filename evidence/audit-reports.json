@@ -1,0 +1,10 @@
+{
+  "project": "farming",
+  "reports": [
+    {
+      "file": "audits/exvul-farming-2026.pdf",
+      "sha256": "e49685bd7f9a2d888703766806db8abbea37cc680eeabcfad595fbeb81d33038",
+      "bytes": 233745
+    }
+  ]
+}

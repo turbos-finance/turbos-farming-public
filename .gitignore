@@ -1,0 +1,6 @@
+build/
+.move/
+.env*
+*.log*
+*.keystore
+node_modules/

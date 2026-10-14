@@ -1,0 +1,57 @@
+{
+  "project": "farming",
+  "packageId": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15",
+  "version": 1,
+  "originalRevision": "d03cdbc79210214e98539527e33a881e21378d6a",
+  "contractAndTestFilesUnchanged": true,
+  "files": [
+    {
+      "path": "sources/acl.move",
+      "gitBlob": "7ccc73114abed598d31a7e907c6df38549736fe1",
+      "sha256": "60ff7b86a6451d58599fd4dc44df701dcacc0d19dc078b3b7a057c9d8507c83d",
+      "bytes": 2824
+    },
+    {
+      "path": "sources/config.move",
+      "gitBlob": "f466d657d2ed75d57738e739e4b1db06b801728d",
+      "sha256": "4c5d2aec51468298d552559885343bcfd7d2ab2d089cd7f0d342f44c783c46a4",
+      "bytes": 5415
+    },
+    {
+      "path": "sources/pool.move",
+      "gitBlob": "b0c3fbeff3dd3a116252d1c21143c0c4c477a786",
+      "sha256": "d9daef89eb70831b690929ff791b2f12038b8396e6f4e37b88d86da6c4ffbf76",
+      "bytes": 55254
+    },
+    {
+      "path": "sources/rewarder.move",
+      "gitBlob": "1e10e5eb0ebbc538eea8667e941185019136149f",
+      "sha256": "3f402ea26f8249eb36564c538130a40c2809a4a1a319410de81cdefa84f096b5",
+      "bytes": 19906
+    },
+    {
+      "path": "sources/router.move",
+      "gitBlob": "ba7cfbda39c846ef2df71fff943f475db2678e83",
+      "sha256": "dbd7332cc01fc72e9587c4c9a1e03245f578b274b751bcdb034cf0097de27791",
+      "bytes": 14079
+    },
+    {
+      "path": "tests/config_tests.move",
+      "gitBlob": "121ba3f5046a0d8b35e3715178c962cdac33d68b",
+      "sha256": "b3625793e20cc146657c6a6b080d0fc89cc31b2b63f94a45ef067823ca7f6d5a",
+      "bytes": 2780
+    },
+    {
+      "path": "tests/pool_math_tests.move",
+      "gitBlob": "ef6896f36304896d05e364f1e65eb27764e37168",
+      "sha256": "95a409731463170b4474c5519667907bc4081ef2cc98bacd16742e9ca0cd37e9",
+      "bytes": 6779
+    },
+    {
+      "path": "tests/rewarder_tests.move",
+      "gitBlob": "9d71b85eb0acb22fd73d6962411ca102e6da3674",
+      "sha256": "9cc34f7441602da914e331dfa25db64a9b1ee6801f26a5571e1284c5dbd58002",
+      "bytes": 11085
+    }
+  ]
+}

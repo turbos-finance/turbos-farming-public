@@ -1,0 +1,16 @@
+{
+  "project": "farming",
+  "packageId": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15",
+  "version": 1,
+  "sourceRevision": "d03cdbc79210214e98539527e33a881e21378d6a",
+  "verificationRecordedAt": "2026-09-29T02:13:44.673Z",
+  "archivedVerification": [
+    {
+      "commit": "d03cdbc79210214e98539527e33a881e21378d6a",
+      "result": "PASS",
+      "output": "Source verification succeeded!"
+    }
+  ],
+  "freshVerificationPerformed": false,
+  "qualification": null
+}

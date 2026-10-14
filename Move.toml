@@ -1,0 +1,7 @@
+[package]
+name = "turbos_farming"
+edition = "2024.beta"
+version = "0.0.1"
+
+[dependencies]
+turbos_clmm = { local = "../turbos-clmm" }
