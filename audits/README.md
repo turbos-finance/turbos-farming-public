@@ -1,5 +1,8 @@
 # Audit evidence - Turbos Farming
 
+Audit PDFs retain their original authors' copyright and terms. The repository's MIT
+license applies to Turbos-owned source and documentation; it does not relicense third-party reports.
+
 The original [ExVul report](exvul-farming-2026.pdf) is preserved unchanged.
 
 | Item | Evidence |
