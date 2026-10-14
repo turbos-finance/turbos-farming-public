@@ -1,0 +1,14 @@
+[package]
+published-at = "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15"
+name = "turbos_farming"
+edition = "2024.beta"
+version = "0.0.1"
+
+
+[dependencies]
+Sui = { local = "../framework-current/crates/sui-framework/packages/sui-framework", override = true }
+MoveStdlib = { local = "../framework-current/crates/sui-framework/packages/move-stdlib", override = true }
+turbos_clmm = { local = "../clmm" }
+
+[addresses]
+turbos_farming = "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15"

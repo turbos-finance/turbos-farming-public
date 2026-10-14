@@ -1,0 +1,11 @@
+{
+  "project": "farming",
+  "repository": "https://github.com/turbos-finance/turbos-farming-public",
+  "sourceCommit": "79aefd1ff4363ba37a6809892e170a0c2e47ce09",
+  "packageId": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15",
+  "packageName": "turbos_farming",
+  "version": 1,
+  "frameworkLegacy": "25804c243d07dd73c0d199e7794383bd855cd436",
+  "frameworkCurrent": "a9a6825eaf6273cc819ee3bcf65fd4909f7624a9",
+  "clmmCommit": "a02c7a0b78d8a53bb0534835c309b2d115254e01"
+}
