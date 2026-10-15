@@ -1,0 +1,38 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY TurbosCLMM
+BUILDING turbos_farming
+Running Move unit tests
+[ PASS    ] turbos_farming::config_tests::test_checked_package_version_rejects_emergency_pause_state
+[ PASS    ] turbos_farming::config_tests::test_emergency_pause_and_unpause_round_trip
+[ PASS    ] turbos_farming::config_tests::test_pool_manager_check_rejects_member_without_role
+[ PASS    ] turbos_farming::config_tests::test_rewarder_manager_check_rejects_member_without_role
+[ PASS    ] turbos_farming::config_tests::test_roles_can_be_added_checked_and_removed
+[ PASS    ] turbos_farming::pool_math_tests::test_add_liquidity_amounts_do_not_round_zero_side
+[ PASS    ] turbos_farming::pool_math_tests::test_add_liquidity_amounts_keep_distinct_desired_and_min_values
+[ PASS    ] turbos_farming::pool_math_tests::test_add_liquidity_min_amount_accepts_equal_desired_amount
+[ PASS    ] turbos_farming::pool_math_tests::test_add_liquidity_min_amount_rejects_desired_below_minimum
+[ PASS    ] turbos_farming::pool_math_tests::test_effective_range_accepts_tick_inside_bounds
+[ PASS    ] turbos_farming::pool_math_tests::test_effective_range_migration_lock_blocks_user_actions
+[ PASS    ] turbos_farming::pool_math_tests::test_effective_range_migration_lock_can_be_cleared
+[ PASS    ] turbos_farming::pool_math_tests::test_effective_range_migration_lock_defaults_to_clear
+[ PASS    ] turbos_farming::pool_math_tests::test_effective_range_rejects_tick_outside_bounds
+[ PASS    ] turbos_farming::pool_math_tests::test_fix_coin_add_liquidity_accepts_one_sided_amount
+[ PASS    ] turbos_farming::pool_math_tests::test_fix_coin_add_liquidity_rejects_zero_amounts
+[ PASS    ] turbos_farming::pool_math_tests::test_position_reward_amount_preserves_high_precision_accumulator
+[ PASS    ] turbos_farming::pool_math_tests::test_share_is_zero_when_position_does_not_overlap_effective_range
+[ PASS    ] turbos_farming::pool_math_tests::test_share_matches_exact_value_for_centered_overlap
+[ PASS    ] turbos_farming::pool_math_tests::test_share_matches_exact_value_for_full_position_overlap
+[ PASS    ] turbos_farming::pool_math_tests::test_share_matches_exact_value_for_single_sided_overlap
+[ PASS    ] turbos_farming::pool_math_tests::test_share_matches_exact_value_for_upper_half_overlap
+[ PASS    ] turbos_farming::pool_math_tests::test_share_rejects_invalid_position_tick_range
+[ PASS    ] turbos_farming::rewarder_tests::test_create_rewarder_rejects_emergency_paused_config
+[ PASS    ] turbos_farming::rewarder_tests::test_create_rewarder_rejects_sender_without_role
+[ PASS    ] turbos_farming::rewarder_tests::test_deposit_and_withdraw_reward_vault_balance
+[ PASS    ] turbos_farming::rewarder_tests::test_emergent_withdraw_allows_emergency_paused_config
+[ PASS    ] turbos_farming::rewarder_tests::test_high_precision_pool_share_preserves_small_reward_accumulator
+[ PASS    ] turbos_farming::rewarder_tests::test_multiple_pools_split_rewards_by_allocate_point
+[ PASS    ] turbos_farming::rewarder_tests::test_pool_settlement_updates_release_and_acc_per_share
+[ PASS    ] turbos_farming::rewarder_tests::test_withdraw_reward_rejects_insolvent_vault
+[ PASS    ] turbos_farming::rewarder_tests::test_zero_pool_share_settlement_preserves_pool_accumulator
+Test result: OK. Total tests: 32; passed: 32; failed: 0

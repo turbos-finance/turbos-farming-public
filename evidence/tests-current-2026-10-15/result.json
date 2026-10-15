@@ -1,0 +1,41 @@
+{
+  "startedAt": "2026-10-15T07:56:18.776Z",
+  "completedAt": "2026-10-15T07:56:40.501Z",
+  "project": "farming",
+  "toolchain": "sui 1.66.2-a9a6825eaf62",
+  "testFrameworkCommit": "a9a6825eaf6273cc819ee3bcf65fd4909f7624a9",
+  "clmmMetadataCommit": "df4e892dfb970fa6919e589709554fde3fc5fa80",
+  "command": [
+    "sui",
+    "move",
+    "test",
+    "--path",
+    "DISPOSABLE_DIRECTORY",
+    "--build-env",
+    "mainnet",
+    "--silence-warnings",
+    "--no-lint",
+    "--gas-limit",
+    "1000000000",
+    "--threads",
+    "1"
+  ],
+  "exitCode": 0,
+  "diskStopped": false,
+  "timedOut": false,
+  "testResult": {
+    "status": "OK",
+    "total": 32,
+    "passed": 32,
+    "failed": 0
+  },
+  "currentCheckoutSourcesAndTests": true,
+  "sourceAndTestsUnchanged": true,
+  "sourceTreeSha256": "dc0640e468c5fa3dba860449b8f3b027182ee93e7e91ad03809fc21a3095abee",
+  "coverageMeasured": false,
+  "scope": "Current-checkout unit tests only; production bytecode verification is separate",
+  "previousPublicHead": "4aa00043bd52969cad2d285625933895fc4b43ec",
+  "notes": "Three previously published expected-failure code corrections (1, 13, 16) are directly in tests/pool_math_tests.move; abort locations remain constrained.",
+  "productionBytecodeStillMatches": true,
+  "allAuthorizationAndInvariantCasesCovered": false
+}

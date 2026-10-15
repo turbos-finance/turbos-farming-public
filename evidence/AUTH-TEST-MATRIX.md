@@ -1,3 +1,5 @@
+> October 15 update: the tests/corrections described below are now directly tracked in the current source/test tree. The current suite passes 32 tests; use [current-checkout instructions](tests-current-2026-10-15/README.md). The remaining sections describe the October 14 overlay baseline, not a claim of exhaustive coverage.
+
 # First authorization/invariant test batch — Turbos Farming
 
 Pinned deployed source: `79aefd1ff4363ba37a6809892e170a0c2e47ce09`.

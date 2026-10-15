@@ -120,7 +120,7 @@ module turbos_farming::pool_math_tests {
     }
 
     #[test]
-    #[expected_failure(abort_code = 12, location = turbos_farming::pool)]
+    #[expected_failure(abort_code = 1, location = turbos_farming::pool)]
     fun test_add_liquidity_min_amount_rejects_desired_below_minimum() {
         pool::check_add_liquidity_amount_limits_for_test(100, 200, 99, 200);
     }
@@ -132,7 +132,7 @@ module turbos_farming::pool_math_tests {
     }
 
     #[test]
-    #[expected_failure(abort_code = 18, location = turbos_farming::pool)]
+    #[expected_failure(abort_code = 13, location = turbos_farming::pool)]
     fun test_fix_coin_add_liquidity_rejects_zero_amounts() {
         pool::assert_fix_coin_amount_non_zero_for_testing(0, 0);
     }
@@ -194,7 +194,7 @@ module turbos_farming::pool_math_tests {
     }
 
     #[test]
-    #[expected_failure(abort_code = 21, location = turbos_farming::pool)]
+    #[expected_failure(abort_code = 16, location = turbos_farming::pool)]
     fun test_effective_range_migration_lock_blocks_user_actions() {
         let ctx = &mut tx_context::dummy();
         let mut farming_pool = pool::new_pool_for_testing(
