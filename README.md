@@ -35,3 +35,7 @@ verification. The original lockfile records mainnet framework revision
 `b979a730b73afb8e5f9a9672fa7b09afbff6479b`; compiler/framework selection must be recorded
 when regenerating evidence. The archived verification passed on 2026-09-29 using the
 deployed CLMM v22 dependency. Fresh release CI and line/branch coverage remain outstanding.
+
+## Current-release metadata verification (2026-10-15)
+
+See [verified build configuration and official source-verification evidence](evidence/mvr-source-2026-10-15/README.md). This update does not change production functions. MVR GitInfo update and a fresh-cache registry-consumer run are separate follow-ups.

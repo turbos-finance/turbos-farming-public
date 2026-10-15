@@ -1,0 +1,5 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY TurbosCLMM
+BUILDING turbos_farming
+Source verification succeeded!

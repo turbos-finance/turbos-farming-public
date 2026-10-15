@@ -1,0 +1,48 @@
+{
+  "verifiedAt": "2026-10-15T02:30:32.288Z",
+  "network": "mainnet",
+  "packageId": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15",
+  "originalId": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15",
+  "version": "1",
+  "sourceAnchor": "79aefd1ff4363ba37a6809892e170a0c2e47ce09",
+  "sourceAndTestsUnchangedFromPreviousPublicHead": true,
+  "previousPublicHead": "cda60b393376a8db947f4b11059d0583739cfc6b",
+  "toolchain": "sui 1.66.2-a9a6825eaf62",
+  "officialCommand": "sui client verify-source --build-env mainnet --silence-warnings --no-lint",
+  "officialExitCode": 0,
+  "exactRootModules": 5,
+  "allRootModuleBytesMatch": true,
+  "metadataFiles": [
+    {
+      "file": "Move.toml",
+      "sha256": "35c46ce888ce2c8e32425f1b51d81832a8df72890de51057dc5378b9a194185a"
+    },
+    {
+      "file": "Move.lock",
+      "sha256": "5d2b9bf614f16691454fd4d373056b56c4c58a216674f0038476922648ad498d"
+    },
+    {
+      "file": "Published.toml",
+      "sha256": "9682001c4606bce9a1bf83f13efa954f36c5f198561d4316835c7d0c3680d1c5"
+    }
+  ],
+  "onChainLinkage": [
+    {
+      "originalId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "upgradedId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "upgradedVersion": "25"
+    },
+    {
+      "originalId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "upgradedId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "upgradedVersion": "54"
+    },
+    {
+      "originalId": "0x91bfbc386a41afcfd9b2533058d7e915a1d3829089cc268ff4333d54d6339ca1",
+      "upgradedId": "0xa5a0c25c79e428eba04fb98b3fb2a34db45ab26d4c8faf0d7e39d66a63891e64",
+      "upgradedVersion": "22"
+    }
+  ],
+  "scope": "Official root source verification and independent exact root-module BCS comparison. Dependency source modules were not independently verified (--verify-deps was not used). No mainnet transaction or contract upgrade.",
+  "mvrStatus": "Existing registration still points to the previous source anchor. A separate owner-signed GitInfo update and fresh-cache MVR consumption test are required."
+}
