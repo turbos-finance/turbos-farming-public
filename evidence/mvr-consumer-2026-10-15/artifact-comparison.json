@@ -1,0 +1,42 @@
+{
+  "project": "farming",
+  "packageId": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15",
+  "version": "1",
+  "verifiedAt": "2026-10-15T07:35:19.696Z",
+  "referenceChainReadAt": "2026-10-15T02:31:24.293Z",
+  "comparison": "SHA-256 of freshly MVR-built dependency module BCS versus recorded immutable deployed-package module hashes; no new chain fetch",
+  "modules": [
+    {
+      "module": "acl",
+      "sha256": "047c3efedbed2bc6b93add884e22b352b898094923d6771b24a1ec48c3ee60ed",
+      "deployedSha256": "047c3efedbed2bc6b93add884e22b352b898094923d6771b24a1ec48c3ee60ed",
+      "match": true
+    },
+    {
+      "module": "config",
+      "sha256": "81d06f20804e7c18be5c2d4463c3b293aa63004f9f58458f3245e4b52ee3b545",
+      "deployedSha256": "81d06f20804e7c18be5c2d4463c3b293aa63004f9f58458f3245e4b52ee3b545",
+      "match": true
+    },
+    {
+      "module": "pool",
+      "sha256": "154d40d1716da2575098ab332730f1dae495fc1b12c3d86104d2a6b27cbbd93a",
+      "deployedSha256": "154d40d1716da2575098ab332730f1dae495fc1b12c3d86104d2a6b27cbbd93a",
+      "match": true
+    },
+    {
+      "module": "rewarder",
+      "sha256": "9837b59a0e2705b05a5ba7655c82306b51fd40be689327e50e195d25aefe9004",
+      "deployedSha256": "9837b59a0e2705b05a5ba7655c82306b51fd40be689327e50e195d25aefe9004",
+      "match": true
+    },
+    {
+      "module": "router",
+      "sha256": "5db9ea43a6980e50179f299bf32790a521c5285da5c991461f567506b12c221b",
+      "deployedSha256": "5db9ea43a6980e50179f299bf32790a521c5285da5c991461f567506b12c221b",
+      "match": true
+    }
+  ],
+  "extras": [],
+  "allMatch": true
+}

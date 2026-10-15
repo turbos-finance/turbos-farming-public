@@ -1,0 +1,82 @@
+{
+  "completedAt": "2026-10-15T07:34:30.953Z",
+  "project": "farming",
+  "network": "mainnet",
+  "mvrName": "@turbos/farming",
+  "version": 1,
+  "packageId": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15",
+  "sourceCommit": "1b3654dbd1aef1fd192c491346ade7ed82eb2258",
+  "registryIndexedCorrectCommit": true,
+  "versionedRegistry": {
+    "name": "@turbos/farming",
+    "metadata": {
+      "contact": "ted@turbos.finance; bruce@turbos.finance",
+      "description": "Turbos Farming",
+      "homepage_url": "https://app.turbos.finance",
+      "documentation_url": "https://github.com/turbos-finance/turbos-farming-public/blob/main/README.md"
+    },
+    "package_info": {
+      "id": "0x5325e78affaa88b4d619c2b4f10a2d592a6b6ac446830d8e6e29afefa26b4fa0",
+      "git_table_id": "0xef473ea433f6bbb77f69aeb65b026f75b5bc0f988378512d8a45b60fa53836cf",
+      "default_name": "@turbos/farming",
+      "metadata": {
+        "default": "@turbos/farming"
+      }
+    },
+    "git_info": {
+      "repository_url": "https://github.com/turbos-finance/turbos-farming-public",
+      "path": "",
+      "tag": "1b3654dbd1aef1fd192c491346ade7ed82eb2258"
+    },
+    "version": 1,
+    "package_address": "0x5fcfe31c479b3d83db28dd5e5d40ddfe01b1451b30677aad9f273e5322c0ee15"
+  },
+  "latestRegistryAlsoMatches": true,
+  "metadataUpdate": {
+    "digest": "8d2nzwYgTTizbn1QBAydvj8jnjd4ViqsQWMd9eoBfdcY",
+    "sender": "0x6d92d887ba0858d58979fd88bbe91d4baf5ed473acc30804463608ef5d12697f",
+    "success": true,
+    "proposalCommandsAndInputsMatch": true
+  },
+  "toolchain": "sui 1.66.2-a9a6825eaf62",
+  "resolver": "mvr 0.1.0-d85f8ad92add",
+  "cacheScope": "A new empty MOVE_HOME was created for this five-package run; dependencies downloaded normally and were shared between its consumers. No old Move cache was seeded or edited.",
+  "nonEmptyImport": true,
+  "checks": [
+    {
+      "label": "farming-mvr-add",
+      "start": "2026-10-15T07:32:23.459Z",
+      "end": "2026-10-15T07:32:28.622Z",
+      "command": [
+        "mvr",
+        "add",
+        "@turbos/farming/1"
+      ],
+      "exitCode": 0
+    },
+    {
+      "label": "farming-build",
+      "start": "2026-10-15T07:32:28.622Z",
+      "end": "2026-10-15T07:34:30.953Z",
+      "command": [
+        "sui",
+        "move",
+        "build",
+        "--build-env",
+        "mainnet",
+        "--silence-warnings",
+        "--no-lint"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "allPassed": true,
+  "noMainnetTransactionByVerifier": true,
+  "limitations": "Consumer compilation proves dependency resolution and public function type checking, not runtime execution, full authorization/invariant testing, audit closure, all historical versions, or all peripheral packages.",
+  "freshlyBuiltDependencyModules": {
+    "allMatch": true,
+    "count": 5,
+    "referenceChainReadAt": "2026-10-15T02:31:24.293Z",
+    "scope": "SHA-256 of freshly MVR-built dependency module BCS versus recorded immutable deployed-package module hashes; no new chain fetch"
+  }
+}
